@@ -1,0 +1,18 @@
+{
+    "os": "Linux-4.4.0-194-generic-x86_64-with-Ubuntu-16.04-xenial",
+    "python": "3.7.9",
+    "heartbeatAt": "2022-06-19T16:59:50.597491",
+    "startedAt": "2022-06-19T16:59:47.869217",
+    "docker": null,
+    "gpu": "TITAN X (Pascal)",
+    "gpu_count": 4,
+    "cpu_count": 16,
+    "cuda": "11.0.228",
+    "args": [],
+    "state": "running",
+    "program": "model1.py",
+    "codePath": "model1.py",
+    "host": "ZigZagDL",
+    "username": "avir",
+    "executable": "/mnt/md0/mory/SimGan/venv_3.7/bin/python"
+}

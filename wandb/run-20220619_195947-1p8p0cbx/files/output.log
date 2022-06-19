@@ -1,0 +1,9 @@
+2022-06-19 19:59:50.612785: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-06-19 19:59:51.042794: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusolver.so.11'; dlerror: libcusolver.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /mnt/md0/mory/SimGan/venv_3.7/lib/python3.7/site-packages/cv2/../../lib64:
+2022-06-19 19:59:51.043310: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1850] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+Traceback (most recent call last):
+  File "model1.py", line 27, in <module>
+    K.set_session(sess)
+AttributeError: module 'keras.api._v2.keras.backend' has no attribute 'set_session'
